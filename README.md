@@ -4,6 +4,15 @@ Customers and employees are always the two big essential factors for a company t
 Data Source:
 The dataset we used in this entire project was obtained from Kaggle website and it was published by IBM data scientists (see Kaggle web link here). In this dataset, there are 1470 employee records and 35 employee features, such as age, daily rate, distance from home, education level, etc. These 35 employee features include both numerical and categorical variables. The  Attrition feature is the target of prediction. There are 2 classes in the target feature, which are “Yes” and “No”. If an attrition is yes, that means the employee  is  a churn. “No” means that the employee prefers to stay in the company.
 
+Exploratory analysis provides insights on the following:
+- How is our data distributed?
+- How many employee left or how many stayed in the dataset?
+- Would people leave because too long with no promotion?
+- People in which department are most likely to leave?
+- Is there a geneder discrimination?
+- Did people leave because they live far away?
+- How many numerical variables correlated with each other?¶
+
 Machine Learning Models:
 1. Linear Regression
 2. Polynomial regression
